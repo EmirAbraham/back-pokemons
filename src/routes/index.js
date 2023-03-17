@@ -13,7 +13,7 @@ const router = Router();
 // Ejemplo: router.use('/auth', authRouter);
 router.use('/pokemons', getPokemons)
 router.use('/pokemons', getPokemonsById)
-router.use('/pokemons', getPokemonsByName)
+router.use('/pokemon', getPokemonsByName)
 router.use('/pokemons', postPokemons)
 router.use('/types', getTypes)
 module.exports = router;
